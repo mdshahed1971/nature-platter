@@ -37,3 +37,14 @@
         </div>
       </div>
 
+
+
+
+
+
+
+
+
+
+<p class="text-[white] font-poppins text-[23px] bg-[#63B76D] px-[33px] inline p-3 rounded-[13px]">Cook Exotic Dishes</p>
+      <h2>UP to <span>20% OFF</span></h2>

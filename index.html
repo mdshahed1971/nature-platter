@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <!-- google fonts -->
  <!-- font awsome -->
  <script src="https://kit.fontawesome.com/2d2b6264bc.js" crossorigin="anonymous"></script>
@@ -22,14 +25,17 @@
     .font-sora{
         font-family: "Sora", serif;
     }
+    .font-poppins{
+      font-family: "Poppins", serif;
+    }
  </style>
  <!-- style end -->
 </head>
 <body>
   <!-- header start -->
-      <header class="lg:mb-[140px] md:mb-[90px] mb-[60px]" style="background: linear-gradient(180deg, #FFF 0%, #EFEBE3 100%);">
+      <header class="lg:mb-[140px] md:mb-[90px] mb-12" style="background: linear-gradient(180deg, #FFF 0%, #EFEBE3 100%);">
      <!-- navbar start -->
-        <div class="navbar bg-base-100 lg:mt-[42px] mt-[30px] lg:mb-[130px] md:mb-[80px] mb-[50px] container mx-auto">
+        <div class="navbar bg-base-100 lg:mt-[42px] md:mt-[25px] mt-3 lg:mb-[132px] md:mb-[80px] mb-[68px] container mx-auto">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -63,7 +69,7 @@
               </ul>
             </div>
             <div class="navbar">
-              <a class="text-[#111] font-sora text-xl font-normal cursor-pointer mr-[25px] border border-[#179800] px-[30px] py-[10px] lg:block hidden">Login</a>
+              <a class="text-[#111] font-sora text-xl font-normal cursor-pointer mr-[25px] border border-[#179800] px-[30px] py-[10px] lg:block hidden rounded-[8px]">Login</a>
               <a class="text-[white] font-sora cursor-pointer text-xl font-normal lg:block hidden bg-[#179800] px-[30px] py-[10px] rounded-[8px]">Register</a>
             </div>
           </div>
@@ -71,9 +77,9 @@
     
          <!-- banner start -->
         <section class="text-center container mx-auto">
-          <h2 class="text-[#111] mb-[26px] lg:text-[56px] md:text-[45px] text-[30px] font-sora font-semibold">Freshness <span class="text-[#179800]">You Can</span><br><span class="text-[#179800]"> Count </span>
+          <h2 class="text-[#111] mb-[26px] lg:text-[56px] md:text-[45px] text-[32px] font-sora font-semibold">Freshness <span class="text-[#179800]">You Can</span><br><span class="text-[#179800]"> Count </span>
             On , Prices You’ll Love!</h2>
-          <p class="lg:mb-[137px] md:mb-[80px] mb-[60px] text-[#111] font-sora lg:text-xl md:text-lg text-base font-normal">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+          <p class="lg:mb-[37px] md:mb-[28px] my-4 text-[#111] font-sora lg:text-xl md:text-lg text-base font-normal">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
          <img src="./img/hero-vegetables.png" alt="" class="lg:w-9/12 lg:ml-[150px]">
         </section>
    <!-- banner end -->
@@ -84,7 +90,7 @@
 <!-- service start -->
 
 <section class="container mx-auto lg:mb-[140px] md:mb-[90px] mb-[50px]">
-  <h2 class="text-[#179800] lg:text-4xl md:text-3xl text-2xl font-sora font-semibold  lg:mb-12 md:mb-10 mb-8 md:text-left text-center">Services</h2>
+  <h2 class="text-[#179800] lg:text-text-4xl md:text-3xl text-2xl font-sora font-semibold  lg:mb-12 md:mb-10 mb-8 lg:justify-start ml-[15px]">Services</h2>
    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 justify-center">
     <!-- card start -->
   <div class="card bg-base-100 shadow-xl lg:px-[32px] lg:py-[42px]  md:px-[20px] md:py-18px py-[16px]" style="background: var(--Secoundry, #EFEBE3);">
@@ -92,7 +98,7 @@
       <img src="./img/service.png" alt="">
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold">24/7 Services </h2>
+      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold lg:mt-6 mt-[18px]">24/7 Services </h2>
       <p class="text-[#111] font-sora lg:text-xl text-base font-light lg:mt-[12px] mt-[8px]">  Make sure customers have the same level of service every time they interact with your company.</p>
     </div>
   </div>
@@ -104,7 +110,7 @@
       <img src="./img/delivery.png" alt="">
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-[#111] font-sora  lg:text-2xl md:text-xl text-lg font-semibold">Fast Delivery </h2>
+      <h2 class="card-title text-[#111] font-sora  lg:text-2xl md:text-xl text-lg font-semibold lg:mt-6 mt-[18px]">Fast Delivery </h2>
       <p class="text-[#111] font-sora lg:text-xl text-base font-light lg:mt-[12px] mt-[8px]">  Make sure customers have the same level of service every time they interact with your company.</p>
     </div>
   </div>
@@ -116,7 +122,7 @@
       <img src="./img/healthy.png" alt="">
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold">Healthy Products  </h2>
+      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold lg:mt-6 mt-[18px]">Healthy Products  </h2>
       <p class="text-[#111] font-sora lg:text-xl text-base font-light lg:mt-[12px] mt-[8px]">  Make sure customers have the same level of service every time they interact with your company.</p>
       
     </div>
@@ -128,25 +134,25 @@
 
 
 <!--fresh vegetables start -->
-<marquee direction="dropdown">
+
 <section class="container mx-auto lg:mb-[140px] md:mb-[80px] mb-[50px]">
      
     <div class="text-center">
-     
-      <h2 class="text-[#111] mb-[26px] lg:text-[56px] md:text-[45px] text-[30px] font-sora font-semibold">Fresh <span class="text-[#179800]">Vegetable</span></h2>
-      <p class="text-[#111] font-sora lg:text-xl md:text-lg text-base font-normal lg:mb-[100px] md:mb-[70px] mb-[50px]">Fresh vegetables are a great choice for maintaining a healthy diet. <br>They are packed with essential nutrients like vitamins, minerals, <br>and fiber. Some popular examples of fresh vegetables <br>include:</p>
-    
+      <marquee direction="dropdown">
+      <h2 class="text-[#111] mb-[26px] lg:text-[56px] md:text-[45px] text-[30px] font-sora font-semibold text-center">Fresh <span class="text-[#179800]">Vegetable</span></h2>
+      <p class="text-[#111] text-center font-sora lg:text-xl md:text-lg text-base font-normal lg:mb-[100px] md:mb-[70px] mb-[50px]">Fresh vegetables are a great choice for maintaining a healthy diet. <br>They are packed with essential nutrients like vitamins, minerals, <br>and fiber. Some popular examples of fresh vegetables <br>include:</p>
+    </marquee>
         </div>
    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center gap-6">
 <!-- card start -->
   <div class="card bg-base-100 bg-[#EFEBE3]">
     <figure class="px-10 pt-10">
-      <img src="./img/flower.jpg" alt="" class="rounded-[8px]">
+      <img src="./img/c-img.webp" alt="" class="rounded-[8px]">
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold">cauliflower</h2>
+      <h2 class="card-title text-[#111] font-sora lg:text-2xl text-xl font-semibold">capsicum</h2>
       <p class="text-[#111] font-sora lg:text-xl text-base font-light  lg:mt-[12px] lg:mb-[10px]
-      mt-[10px] mb-[8px]">Cauliflower is one of several <br>vegetables cultivated from the <br>species Brassica oleracea in <br>the genus Brassica</p>
+      mt-[10px] mb-[8px]">These are mild-flavored <br> peppers that come in various <br>colors such as green, red, <br> yellow, orange, </p>
       <div class="card-actions">
         <button class="text-[white] font-sora cursor-pointer text-base font-normal bg-[#179800] lg:px-[30px] lg:py-[10px] px-[23px] py-[8px] rounded-[8px]">Buy Now</button>
       </div>
@@ -160,10 +166,10 @@
 <!-- card start -->
   <div class="card bg-base-100 bg-[#EFEBE3]">
     <figure class="px-10 pt-10">
-      <img src="./img/tomato.jpg" alt="" class="rounded-[8px]">
+      <img src="./img/t-img.webp" alt="" class="rounded-[8px]">
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold">tomato</h2>
+      <h2 class="card-title text-[#111] font-sora lg:text-2xl text-xl font-semibold">tomato</h2>
       <p class="text-[#111] font-sora lg:text-xl text-base font-light  lg:mt-[12px] lg:mb-[10px]
       mt-[10px] mb-[8px]">Lycopene in tomatoes has been <br>shown to support heart health <br>by reducing cholesterol and <br>blood pressure levels.</p>
       <div class="card-actions">
@@ -176,12 +182,12 @@
 <!-- card start -->
   <div class="card bg-base-100 bg-[#EFEBE3]">
     <figure class="px-10 pt-10">
-      <img src="./img/potato.jpg" alt="" class="rounded-[8px]">
+      <img src="./img/k-img.jpeg" alt="" class="rounded-[8px]">
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-[#111] font-sora lg:text-2xl md:text-xl text-lg font-semibold">potato</h2>
+      <h2 class="card-title text-[#111] font-sora lg:text-2xl text-xl font-semibold">pumpkin</h2>
       <p class="text-[#111] font-sora lg:text-xl text-lg font-light lg:mt-[12px] lg:mb-[10px]
-      mt-[10px] mb-[8px]">Potatoes contain B vitamins <br> like B6 (pyridoxine), which <br> help  with brain function <br> and energy  metabolism</p>
+      mt-[10px] mb-[8px]">Varies greatly, ranging from <br> small (for ornamental use) <br>to large pumpkins up to <br>hundreds of pounds</p>
       <div class="card-actions">
         <button class="text-[white] font-sora cursor-pointer text-base font-normal bg-[#179800] lg:px-[30px] lg:py-[10px] px-[23px] py-[8px] rounded-[8px]">Buy Now</button>
       </div>
@@ -191,12 +197,39 @@
 </div>
 </section>
 <!-- fresh vegetable end -->
-</marquee>
 
 
+<!-- Arrival & Offers start -->
+<section class="container mx-auto lg:mb-[162px] md:mb-[100px] mb-[48px]">
+  <h2 class="text-[#179800] lg:text-4xl md:text-3xl text-2xl font-sora lg:mb-12 md:mb-[40px] mb-[32px] font-semibold">Arrival & Offers</h2>
+   <div class="flex lg:flex-row flex-col gap-5">
+  <div class="bg-[#115414] inline-flex lg:gap-[52px] md:gap-[100px] gap-[0px] rounded-3xl">
+    <div class="md:ml-[40px] ml-[18px]">
+      <img src="./img/dawat-logo.png" alt="" class="md:mb-[31px] mb-[17px] mt-12">
+      <p class="lg:text-[23px] md:text-[19px] text-[12px] text-[white] bg-[#63B76D] lg:px-[33px] md:px-[27px] px-[10px] inline py-[8px] rounded-[13px]
+      ">Cook Exotic Dishes</p>
+      <h2 class="text-[white] leadimg-[39px] font-poppins lg:text-[39px] md:text-[35px] text-[17px] font-normal md:mt-[26px] mt-[14px]">UP to <span class="font-bold"> 20% OFF</span></h2>
+    </div>
+    <div class="">
+      <img src="./img/dawat-mock-up.png" alt="" class="mt-[33px]">
+    </div>
+  </div>
 
 
+  <div class="bg-[#102861] flex lg:gap-[23px] md:gap-[200px] gap-[10px]  rounded-3xl">
+    <div class="lg:ml-[27px] md:ml-[35px] ml-[18px]">
+      <img src="./img/india-gate-logo.png" alt="" class="mt-[19px] mb-[17px]">
+      <p class="lg:text-[23px] md:text-[19px] text-[12px] text-[white] bg-[#2A4D97] lg:px-[33px] md:px-[27px] px-[10px] inline p-3 rounded-[13px]">World’s No.1 Rice</p>
+      <h2 class="text-[white] leadimg-[39px] font-poppins lg:text-[39px] md:text-[35px] text-[17px]font-normal mt-[26px]">UP to <span class="font-bold">40% OFF</span></h2>
+    </div>
+    <div>
+      <img src="./img/india-gate-mock-up.png" alt="" class="md:mt-12 mt-[26px] ">
+    </div>
+  </div>
 
+</div>
+</section>
+<!-- Arrival & Offers end -->
 
 
 
