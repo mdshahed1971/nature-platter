@@ -11,6 +11,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
 <!-- google fonts -->
  <!-- font awsome -->
  <script src="https://kit.fontawesome.com/2d2b6264bc.js" crossorigin="anonymous"></script>
@@ -28,6 +31,9 @@
     .font-poppins{
       font-family: "Poppins", serif;
     }
+    .font-adlam{
+      font-family: "ADLaM Display", serif;
+    }
  </style>
  <!-- style end -->
 </head>
@@ -35,30 +41,18 @@
   <!-- header start -->
       <header class="lg:mb-[140px] md:mb-[90px] mb-12" style="background: linear-gradient(180deg, #FFF 0%, #EFEBE3 100%);">
      <!-- navbar start -->
-        <div class="navbar bg-base-100 lg:mt-[42px] md:mt-[25px] mt-3 lg:mb-[132px] md:mb-[80px] mb-[68px] container mx-auto">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                </ul>
-              </div>
-              <img src="./img/logo-header.png" alt="" class="mr-[300px] cursor-pointer">
-            </div>
+     <div class="navbar bg-base-100 lg:mt-[42px] md:mt-[25px] mt-3 lg:mb-[132px] md:mb-[80px] mb-[68px] container mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+      </ul>
+      <img src="./img/logo-header.png" alt="" class="mr-[300px] cursor-pointer">
+      <i class="fa-solid fa-bars lg:hideen md:hidden ml-[280px] text-[#179800]"></i>
+        </div>
+        
+      </div>
             <div class="navbar-center hidden lg:flex md:hidden">
               <ul class="menu menu-horizontal px-1">
                 <li><a class="text-[#111] font-sora text-xl font-normal mr-8">Product</a></li>
@@ -73,6 +67,7 @@
               <a class="text-[white] font-sora cursor-pointer text-xl font-normal lg:block hidden bg-[#179800] px-[30px] py-[10px] rounded-[8px]">Register</a>
             </div>
           </div>
+          <div class=""></div>
     <!-- navbar end -->
     
          <!-- banner start -->
@@ -199,6 +194,169 @@
 <!-- fresh vegetable end -->
 
 
+<!-- Popular Products start -->
+
+<section class=" lg:mb-[140px] md:mb-[90px] mb-[48px] bg-[#EFEBE3] lg:py-[140px] md:py-[90px] py-[48px]">
+  <h2 class="text-[#179800] container mx-auto lg:text-4xl md:text-3xl text-2xl font-sora font-semibold mb-[40px]">Popular Products</h2>
+  <div class="lg:flex gap-[24px] container mx-auto">
+   <div class="flex rounded-[10px] mb-[50px]" style="background: linear-gradient(133deg, #53DB3A 25.67%, #FFF 108.6%)">
+    <div class="mt-[51px] ml-[32px]">
+    <h2 class="text-[#EFEBE3] font-adlam text-[32px] font-normal mb-[30px]">30% off</h2>
+    <p class="text-[#111111] font-sora text-base font-normal mb-[30px]">Discover a world of treats, toys, and <br>essentials handpicked for </p>
+    <button class="px-[30px] py-[10px] text-[#111111] bg-[#FFF] rounded-[8px]">Buy Now</button>
+    </div>
+    <div>
+      <img src="./img/vegetable-offer.png" alt="" class="mt-[149px] mr-[15px]">
+    </div>
+   </div>
+
+
+   <div class="grid lg:grid-cols-3 grid-cols-2 ">
+   <div class="inline-flex gap-[24px] rounded-[10px] mb-[23px] bg-[#FFF] mr-[23px] p-[16px]">
+    <div>
+      <img src="./img/image 43.png" alt="" class="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+    </div>
+    <div>
+      <div class="flex items-center gap-[11px] mb-[10px]">
+      <i class="fa-solid fa-star text-[#FFC107]"></i>
+      <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+    </div>
+      <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Onion 1 KG</h4>
+      <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+    </div>
+   </div>
+
+   <div class="inline-flex gap-[24px] mb-[23px] rounded-[10px] mr-[23px] bg-[#FFF] p-[16px]">
+    <div>
+      <img src="./img/image 41.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+    </div>
+    <div>
+      <div class="flex items-center gap-[11px] mb-[10px]">
+        <i class="fa-solid fa-star text-[#FFC107]"></i>
+        <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+      </div>
+      <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Tomato 500 g </h4>
+      <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+    </div>
+  </div>
+  <div class="inline-flex mb-[23px] gap-[24px] rounded-[10px] mr-[23px] bg-[#FFF] p-[16px]">
+    <div>
+      <img src="./img/image 44.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+    </div>
+    <div>
+      <div class="flex items-center gap-[11px] mb-[10px]">
+        <i class="fa-solid fa-star text-[#FFC107]"></i>
+        <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+      </div>
+      <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Potato 1 KG </h4>
+      <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+    </div>
+  </div>
+
+
+
+
+<div class="inline-flex mb-[23px] gap-[24px] rounded-[10px] mr-[23px] bg-[#FFF] p-[16px]">
+  <div>
+    <img src="./img/image 41.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+      <i class="fa-solid fa-star text-[#FFC107]"></i>
+      <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+    </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Tomato 500 g </h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+</div>
+
+
+<div class="inline-flex mb-[23px] gap-[24px] rounded-[10px] bg-[#FFF] mr-[23px] p-[16px]">
+  <div>
+    <img src="./img/image 43.png" alt="" class="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+    <i class="fa-solid fa-star text-[#FFC107]"></i>
+    <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+  </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Onion 1 KG</h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+ </div>
+
+
+
+
+
+
+
+
+<div class="inline-flex mb-[23px] gap-[24px] rounded-[10px] mr-[23px] bg-[#FFF] p-[16px]">
+  <div>
+    <img src="./img/image 41.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+      <i class="fa-solid fa-star text-[#FFC107]"></i>
+      <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+    </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Tomato 500 g </h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+</div>
+
+
+
+<div class="inline-flex mb-[23px]  gap-[24px] rounded-[10px] bg-[#FFF] mr-[23px] p-[16px]">
+  <div>
+    <img src="./img/image 43.png" alt="" class="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+    <i class="fa-solid fa-star text-[#FFC107]"></i>
+    <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+  </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Onion 1 KG</h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+ </div>
+
+
+
+
+ <div class="inline-flex mb-[23px] gap-[24px] rounded-[10px] mr-[23px] bg-[#FFF] p-[16px]">
+  <div>
+    <img src="./img/image 44.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+      <i class="fa-solid fa-star text-[#FFC107]"></i>
+      <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+    </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base mb-[10px] ">Potato 1 KG </h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+</div>
+
+<div class="inline-flex lg:block hidden rounded-[10px] gap-[24px] mr-[23px] bg-[#FFF] p-[16px]">
+  <div>
+    <img src="./img/image 44.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+      <i class="fa-solid fa-star text-[#FFC107]"></i>
+      <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+    </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base text-[12px] mb-[10px] ">Potato 1 KG </h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- popular products end -->
+
 <!-- Arrival & Offers start -->
 <section class="container mx-auto lg:mb-[162px] md:mb-[100px] mb-[48px]">
   <h2 class="text-[#179800] lg:text-4xl md:text-3xl text-2xl font-sora lg:mb-12 md:mb-[40px] mb-[32px] font-semibold">Arrival & Offers</h2>
@@ -223,7 +381,7 @@
       <h2 class="text-[white] leadimg-[39px] font-poppins lg:text-[39px] md:text-[35px] text-[17px]font-normal mt-[26px]">UP to <span class="font-bold">40% OFF</span></h2>
     </div>
     <div>
-      <img src="./img/india-gate-mock-up.png" alt="" class="md:mt-12 mt-[26px] ">
+      <img src="./img/india-gate-mock-up.png" alt="" class="md:mt-12 mt-[26px] md:mr-[12px] mr-[0px]">
     </div>
   </div>
 
@@ -233,15 +391,15 @@
 
 
 <!-- Get Grocery News! start -->
-<section class="container mx-auto flex justify-around bg-[#EFEBE3] rounded-[24px] mb-[]">
+<section class="container mx-auto flex justify-around md:flex-row flex-col bg-[#EFEBE3] rounded-[24px] mb-[]">
   <div>
-    <img src="./img/vegetable-busket.png" alt="">
+    <img src="./img/vegetable-busket.png" alt="" class="lg:mt-[55px] md:mt-[40px] mt-[32px]">
   </div>
-  <div>
-    <h3 class="mt-[97px] text-[#111] font-sora lg:text-4xl md:text-3xl text-[22px] font-semibold mb-[22px]">Get Grocery News!</h3>
-    <p class="text-[#111] font-sora text-xl mb-[28px]">Exclusive training tips, ticks, product deals and more.</p>
-    <p class="text-[#C4C4C4] font-sora text-base p-[18px] mb-[38px] leading-[32px] bg-[#FFF] rounded-[8px]">Enter email....</p>
-    <button class="text-base text-[white] font-sora bg-[#179800] mb-[80px] rounded-[8px] px-[30px] py-[10px]">Subscribe</button>
+  <div class=" text-center">
+    <h3 class="lg:mt-[97px] md:mt-[60px] mt-[24px] md:text-[#111] text-[#179800] font-sora lg:text-4xl md:text-3xl text-[22px] font-semibold mb-[22px]">Get Grocery News!</h3>
+    <p class="text-[#111] font-sora lg:text-xl lg:mb-[38px] md:mb-[28px] mb-[20px] md:text-lg text-base">Exclusive training tips, ticks, product deals and more.</p>
+    <p class="text-[#C4C4C4] font-sora text-base lg:p-[18px] md:p-[12px] p-[8px] lg:mb-[38px] md:mb-[26px] mb-[12px] leading-[32px] bg-[#FFF] rounded-[8px]">Enter email....</p>
+    <button class="lg:text-xl md:text-base text-[14px] text-[white] font-sora bg-[#179800]   lg:mb-[80px] md:mb-[60px] mb-[40px] rounded-[8px] md:px-[30px] md:py-[10px] px-[24px] py-[8px]">Subscribe</button>
   </div>
 </section>
 <!-- Get Grocery News! end -->

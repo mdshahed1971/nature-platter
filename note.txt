@@ -38,10 +38,11 @@
       </div>
 
 
+ <img src="./img/logo-header.png" alt="" class="mr-[300px] cursor-pointer">
+              <i class="fa-solid fa-bars lg:hideen md:hidden mr-[20px] text-[#179800]"></i>
 
 
-
-
+bg-base-100 lg:mt-[42px] md:mt-[25px] mt-3 lg:mb-[132px] md:mb-[80px] mb-[68px] container mx-auto
 
 
 
