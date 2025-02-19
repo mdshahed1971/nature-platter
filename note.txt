@@ -48,4 +48,14 @@ bg-base-100 lg:mt-[42px] md:mt-[25px] mt-3 lg:mb-[132px] md:mb-[80px] mb-[68px] 
 
 
 <p class="text-[white] font-poppins text-[23px] bg-[#63B76D] px-[33px] inline p-3 rounded-[13px]">Cook Exotic Dishes</p>
+
+
+lass="inline-flex lg:block hidden rounded-[10px] gap-[24px] mr-[23px] bg-[#FFF] p-[16px]">
+  <div>
+    <img src="./img/image 44.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+<div c
+  <div>
+
+
       <h2>UP to <span>20% OFF</span></h2>
