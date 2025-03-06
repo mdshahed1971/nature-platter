@@ -59,3 +59,21 @@ lass="inline-flex lg:block hidden rounded-[10px] gap-[24px] mr-[23px] bg-[#FFF] 
 
 
       <h2>UP to <span>20% OFF</span></h2>
+
+
+
+
+
+      <div class="inline-flex flex mb-[23px] lg:block hidden gap-[24px] rounded-[10px] mr-[23px] bg-[#FFF] p-[16px]">
+  <div>
+    <img src="./img/image 44.png" alt="" style="background: url(<path-to-image>) lightgray 50% / cover no-repeat;">
+  </div>
+  <div>
+    <div class="flex items-center gap-[11px] mb-[10px]">
+      <i class="fa-solid fa-star text-[#FFC107]"></i>
+      <p class="text-[#111] font-sora md:text-base text-[10px] font-normal">4.5</p>
+    </div>
+    <h4 class="text-[#111] font-sora font-medium lg:text-xl md:text-base mb-[10px] ">Potato 1 KG </h4>
+    <h5 class="text-[#111] font-sora font-medium md:text-base text-[10px]">$39.99</h5>
+  </div>
+</div>
